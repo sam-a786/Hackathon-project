@@ -1,0 +1,78 @@
+/*css*/
+header {
+  margin: auto;
+  position: relative;
+  float: left;
+  padding: 0.75em;
+  padding-right: 0px;
+  width: 100%;
+  background-color: skyblue;
+  font-size: 1.5em;
+  color: black;
+  font-family: sans-serif;
+  border-bottom-style: solid;
+}
+
+.navBarContainer{
+  clear:both;
+}
+
+.navBar{
+  position: static;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  height: auto;
+  align-items: stretch;
+  justify-content: space-between;
+  border-bottom-style: solid;
+}
+
+.navBar a{
+  text-align: center;
+  font-size: 1em;
+  font-family: sans-serif;
+  text-decoration: none;
+  flex-grow: 5;
+  padding: 0.2em;
+  background-color: lightgray;
+  color: black;
+}
+
+.navBar a:hover{
+  background-color: darkgray;
+  color: white;
+  transition: all 500ms ease;
+}
+
+.footer{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: lightblue;
+  font-family: sans-serif;
+}
+
+.content{
+  margin: auto;
+  padding: 1em;
+  background-color: white;
+  float: top;
+  position: relative;
+}
+
+img {
+  float: left;
+}
+
+p{
+  font-family: sans-serif;
+}
+
+.space{
+  margin: auto;
+  height: 1em;
+  float: top;
+  position: relative;
+}
